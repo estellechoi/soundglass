@@ -1,0 +1,18 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-ivory: #f1ede6;
+  --color-yellow100: #f6dd90;
+  --color-yellow300: #fbdb48;
+  --color-yellow400: #fbd428;
+  --color-yellow500: #faca0f;
+  --color-yellow-o100: rgba(246, 221, 144, 0.41);
+  --color-yellow-o400: rgba(251, 212, 40, 0.41);
+  --color-pink400: #e7426b;
+  --color-pink-o400: rgba(231, 66, 107, 0.41);
+}
+
+:root {
+  --color-primary: var(--color-yellow400);
+  --color-primary-opacity: var(--color-yellow-o100);
+}
