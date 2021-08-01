@@ -2188,7 +2188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.0.0-beta.14":
+"@vue/devtools-api@npm:^6.0.0-beta.11, @vue/devtools-api@npm:^6.0.0-beta.14":
   version: 6.0.0-beta.15
   resolution: "@vue/devtools-api@npm:6.0.0-beta.15"
   checksum: 7769e72bd4d04d2d3e80fcdca277aa41011af6d39c82031de5bba1457ff13e01b06d04d466b660dee796846560b8a2553c88bdb76b8fe42a1e08435e4cca6a23
@@ -11462,7 +11462,7 @@ fsevents@~2.3.2:
     typescript: ~4.1.5
     vue: ^3.1.0
     vue-router: ^4.0.0
-    vuex: ^3.4.0
+    vuex: ^4.0.0
   languageName: unknown
   linkType: soft
 
@@ -12882,12 +12882,14 @@ typescript@~4.1.5:
   languageName: node
   linkType: hard
 
-"vuex@npm:^3.4.0":
-  version: 3.6.2
-  resolution: "vuex@npm:3.6.2"
+"vuex@npm:^4.0.0":
+  version: 4.0.2
+  resolution: "vuex@npm:4.0.2"
+  dependencies:
+    "@vue/devtools-api": ^6.0.0-beta.11
   peerDependencies:
-    vue: ^2.0.0
-  checksum: 37915741ba9557024ea42579e2c8d81847ec699d07d8ea3aa673929f26fceba8c59e7e1e6a875fd3962e50018bc30f782f5ace34d83307ef228ad46a4df343da
+    vue: ^3.0.2
+  checksum: d7c03f0afcbad045ef58921a4baa9ec23bc12c71dbaf1317f1df94e7d8740ce839b9fac48ec775955ce7a8893dceb7217bc05e45421fc6bacc559ed3541e6052
   languageName: node
   linkType: hard
 
